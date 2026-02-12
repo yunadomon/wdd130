@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Staatliches&display=swap');
+
+body {
+    background-color: rgb(235, 220, 222);
+}    
+h1 {
+    font-family: 'Emilys Candy', serif;
+    font-size: 6rem;
+    color: #ff4d6d; 
+    text-shadow: 
+        2px 2px 0px #fff, 
+        4px 4px 0px #ffb3c1,
+        6px 10px 15px rgba(0,0,0,0.1);
+    transition: 0.5s;
+    text-align: center;
+}
+
+h1:hover {
+    color: #c9184a;
+    transform: scale(1.05);
+}
+nav li, h2 {
+    font-family: 'Staatliches', sans-serif;
+    letter-spacing: 2px; 
+}    
+h2 {
+    font-family: 'Staatliches', sans-serif;
+    background-color: #ff4d6d;
+    color: white;
+    display: inline-block; 
+    padding: 5px 20px;
+    transform: rotate(-2deg); 
+    border-radius: 5px;
+    box-shadow: 3px 3px 0px #800f2f;
+    text-transform: uppercase;
+
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    padding: 15px 15px 40px 15px;
+    border: 8px solid white;
+    padding: 0;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(255, 77, 109, 0.4);
+}
+img:hover {
+    transform: scale(1.05) rotate(1deg);
+    box-shadow: 0 10px 25px rgba(255, 77, 109, 0.4);
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+nav li {
+    padding: 10px 20px;
+    background: #ff4d6d;
+    color: white;
+    border-radius: 50px;
+}
+nav li:hover {
+    background: #c9184a;
+    transform: scale(1.1);
+}
+footer {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 20px;
+    font-family: 'cursive', sans-serif;
+}
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding-left: 5%;  
+    padding-right: 5%;
+}
+main h1, 
+main img {
+    grid-column: 1 / 4; 
+    justify-self: center; 
+}
+section {
+    margin-top: 40px;
+    padding: 10px;
+    text-align: center;
+}
+section p {
+    font-family: 'Archivo Narrow', sans-serif;
+}
