@@ -43,6 +43,7 @@ img {
     padding: 0;
     border-radius: 10px;
     box-shadow: 0 10px 25px rgba(255, 77, 109, 0.4);
+    transition: 0.5s;
 }
 img:hover {
     transform: scale(1.05) rotate(-2deg);
