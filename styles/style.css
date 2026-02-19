@@ -189,6 +189,13 @@ footer .social-icons a {
         text-align: center;
         padding: 20px;
     }
+    header img, .contact-form {
+        align-items: center;
+        text-align: center;
+    }
+    h2 {
+        text-align: center;
+    }
     nav ul {
         justify-content: center;
         padding: 0;
@@ -211,5 +218,8 @@ footer .social-icons a {
     .button-container {
         grid-column: 1 / 2; 
         margin-top: 30px;
+    }
+    .about-me-container { 
+        grid-template-columns: 1fr;
     }
 }
