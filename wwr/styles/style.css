@@ -204,7 +204,7 @@ nav {
         width: 60%;
     }
     #background {
-        display: none; /* 小さい画面では非表示 */
+        display: none; 
     }
     .mountains, .msg {
         width: 80%;
