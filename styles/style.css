@@ -185,14 +185,13 @@ footer .social-icons a {
 
 @media (max-width: 600px) {
     header {
-        grid-template-columns: 1fr; 
-        justify-items: center; 
-        text-align: center;
-        padding: 20px 0;
+        display: flex;         
+        flex-direction: column; 
+        align-items: center;
     }
-    .logo {
-        margin: 0 auto;       
-    }
+   .logo {
+    margin: 0 auto;  
+}
     nav ul {
         justify-content: center;  
         padding: 0;
@@ -206,7 +205,8 @@ footer .social-icons a {
     }
     .contact-form form {
         margin: 0 auto;         
-        max-width: 100%;         
+        max-width: 100%;  
+        justify-items: center;        
     }
     .card-container {
         grid-template-columns: 1fr; 
