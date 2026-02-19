@@ -148,22 +148,22 @@ footer .social-icons a {
 
 
 .button-container {
-    display: flex;
-    margin: 40px 0;  
-    width: 100%;
-    justify-content: center;
+    grid-column: 1 / 5; 
+    display: grid;
+    place-items: center; 
+    margin-top: 60px;
 }
 .view-more-link {
     display: inline-block;
     padding: 12px 30px;
-    background-color: #b89794;
-    color: white;
+    border: 2px solid #B69591;
+    color: #B69591;
     text-decoration: none;    
     border-radius: 10px;       
     font-family: 'Merriweather', sans-serif;
-    transition: background-color 0.3s, transform 0.2s;
-    transform: translateY(-5px);
+    transition: background-color 0.3s, transform 0.3s;
 }
 .view-more-link:hover {
-    background-color: #413E3A
+    background-color: #B69591;
+    color: white;
 }
