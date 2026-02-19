@@ -74,6 +74,123 @@
             background: white;
             clip-path: polygon(50% 0, 79% 90%, 2% 35%, 98% 35%, 21% 90%);
         }
+        #denmark {
+            display: grid;
+            grid-template-columns: 1fr 2fr; 
+            grid-template-rows: 1fr 1fr;
+            height: 200px;
+            width: 300px;
+            background-color: white; 
+            gap: 30px; 
+        }
+        #dred1, #dred2, #dred3, #dred4 {
+        background-color: red
+        }
+        #finland {
+            display: grid;
+            grid-template-columns: 1fr 2fr; 
+            grid-template-rows: 1fr 1fr;
+            height: 200px;
+            width: 300px;
+            background-color: blue; 
+            gap: 45px; 
+        }
+        #fwhite1, #fwhite2, #fwhite3, #fwhite4 {
+            background-color: white;
+        }
+        #benin {
+            display: grid;
+            grid-template-columns: 2fr 3fr;
+            grid-template-rows: 1fr 1fr;
+            height: 200px;
+            width: 300px;
+        }
+        #bgreen {
+            background: green;
+            grid-column: 1/2;
+            grid-row: 1/3;
+        }
+        #byellow {
+            background: yellow;
+            grid-column: 2/3;
+            grid-row: 1/2;
+        }
+        #bred {
+            background: red;
+            grid-column: 2/3;
+            grid-row: 2/3;
+        }
+        #italy {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            height: 200px;
+            width: 300px;
+        }
+        #igreen {
+            background: green;
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+        #iwhite {
+            background: white;
+            grid-column: 2/3;
+            grid-row: 1/2;
+        }
+        #ired {
+            background: rgb(213, 38, 38);
+            grid-column: 3/4;
+            grid-row: 1/2;
+        }
+        #car {
+            display: grid;
+            grid-template-columns: 1fr 0.4fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            height: 200px;
+            width: 300px;
+        }
+        /*.star {
+            width: 60px;
+            aspect-ratio: 1;
+            background: rgb(255, 208, 0);
+            clip-path: polygon(50% 0, 79% 90%, 2% 35%, 98% 35%, 21% 90%);
+        }*/
+        .star {
+            width: 45px;
+            height: 45px;
+            background: #FFD700;
+            clip-path: polygon(50% 0, 79% 90%, 2% 35%, 98% 35%, 21% 90%);
+            margin-top: 3px;
+        }
+        #cblue {
+            background: navy;
+            grid-column: 1/4;
+            grid-row: 1/2;
+            display: flex;
+            align-items: center;
+            padding-left: 25px;
+        }
+        #cwhite {
+            background: white;
+            grid-column: 1/4;
+            grid-row: 2/3;
+        }
+        #cgreen {
+            background: green;
+            grid-column: 1/4;
+            grid-row: 3/4;
+        }
+        #cyellow {
+            background: rgb(255, 208, 0);
+            grid-column: 1/4;
+            grid-row: 4/5;
+        }
+        #cred {
+            background: rgb(213, 38, 38);
+            grid-column: 2/3;
+            grid-row: 1/5;
+        }
+        
+
     </style>
 </head>
 
@@ -117,6 +234,27 @@
             <div id="bred"></div>
         </div>
         <hr>
+
+         <h2>Italy</h2>
+        <div id="italy">
+            <div id="igreen"></div>
+            <div id="iwhite"></div>
+            <div id="ired"></div>
+        </div>
+        <hr>
+
+         <h2>C.A.R.</h2>
+        <div id="car">
+            <div id="cblue">
+                <div class="star"></div>
+            </div>
+            <div id="cwhite"></div>
+            <div id="cgreen"></div>
+            <div id="cyellow"></div>
+            <div id="cred"></div>
+        </div>
+        <hr>
+
     </main>
 </body>
 
