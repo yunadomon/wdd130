@@ -185,41 +185,48 @@ footer .social-icons a {
 
 @media (max-width: 600px) {
     header {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr; 
+        justify-items: center; 
         text-align: center;
-        padding: 20px;
+        padding: 20px 0;
     }
-    header img, .contact-form {
-        align-items: center;
-        text-align: center;
-    }
-    h2 {
-        text-align: center;
+    .logo {
+        margin: 0 auto;       
     }
     nav ul {
-        justify-content: center;
+        justify-content: center;  
         padding: 0;
         margin-top: 15px;
-        gap: 15px; 
     }
-    nav a {
-        font-size: 16px; 
+
+    h2 {
+        text-align: center;     
+        margin-left: auto;
+        margin-right: auto;
     }
-    main {
-        padding: 20px; 
+    .contact-form form {
+        margin: 0 auto;         
+        max-width: 100%;         
     }
     .card-container {
         grid-template-columns: 1fr; 
-        gap: 25px;
+        justify-items: center;  
     }
-    .card img {
-        height: 200px;
+    .card {
+        width: 100%;            
+        max-width: 400px;       
     }
-    .button-container {
-        grid-column: 1 / 2; 
-        margin-top: 30px;
+    .about-me-container {
+        grid-template-columns: 1fr; 
+        gap: 20px;           
+        text-align: center;       
     }
-    .about-me-container { 
-        grid-template-columns: 1fr;
+    .about-me-image img {
+        max-width: 250px;       
+        margin: 0 auto;      
+    }
+    .about-me-text p {
+        font-size: 18px;         
+        padding: 0 10px;        
     }
 }
