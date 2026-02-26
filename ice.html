@@ -5,6 +5,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portal Page</title>
     <link rel="stylesheet" href="styles/style.css">
+    <style>
+      main {
+        max-width: 1000px;
+        margin: 0 auto;   
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 80px; 
+      }  
+      main h1, 
+      main > p {
+        grid-column: 1 / -1;
+        text-align: center; 
+      }
+      main h1 {
+        margin-bottom: 0px;   
+        font-size: 3rem;     
+      }
+      main h1 + p {
+        margin-top: 0;       
+        font-size: 1.25rem;   
+        max-width: 800px;     
+        margin-left: auto;   
+        margin-right: auto;  
+        margin-bottom: 40px; 
+      }
+      .ice-card {
+        background-color: #fff;
+        border-radius: 15px; 
+        padding: 30px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.05); 
+        border: 1px solid #eee;
+        display: flex;
+        flex-direction: column;
+      }
+      .ice-card h2 {
+        font-size: 1.5rem;
+        margin-bottom: 25px;
+      }
+      .ice-card a {
+        display: inline-block;
+        margin-top: auto; 
+        padding: 8px 25px;
+        border: 1px solid  #B69591; 
+        color:  #B69591;
+        text-decoration: none;
+        border-radius: 20px;
+        width: fit-content;
+        transition: 0.3s;
+      }
+      .ice-card p {
+        margin-top: 0;      
+      }
+      .ice-card a:hover {
+        background-color:  #B69591;
+        color: white;
+      }
+      .card-label {
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 0px;    
+        margin-top: 15px;
+      } 
+      .ice-card p:not(.card-label) {
+        font-size: 0.95rem;   
+        line-height: 1.6;       
+        margin-top: 0;      
+        font-family: 'Montserrat', sans-serif;;  
+      }
+    </style>
 </head>
 <body>
 
@@ -22,57 +91,71 @@
 
   <main>
   <h1>ICE Challenges</h1>
-  <p>Here are the individual challenges I have completed during this course. Each project helped me master different aspects of web development.</p>
+  <p>Here are the individual challenges I have completed during this course.</p>
 
     <section class="ice-card">
-        <h2>Prophet Card</h2>
-        <p><strong>Assignment:</strong> Design a profile card of a prophet. Practice basic html and css and follow a simple wireframe design.</p>
-        <p><strong>What I learned:</strong></p>
-        <a href="https://yunadomon.github.io/wdd130/ice/prophet_cards/oaks.html" target="_blank">View</a></p>
+      <h2>Prophet Card</h2>
+      <p class="card-label"><strong>Assignment</strong></p>
+      <p>Design a profile card of a prophet. Practice basic HTML and CSS following a simple wireframe design.</p>
+      <p class="card-label"><strong>What I learned</strong></p>
+      <p>I learned the fundamentals of translating a wireframe into code using HTML and CSS. I focused on matching the design layout accurately and then added my own creative touches to improve the visual appeal and readability.</p>
+      <a href="https://yunadomon.github.io/wdd130/ice/prophet_cards/oaks.html" target="_blank" class="view-button">View &rarr;</a>
     </section>
 
      <section class="ice-card">
         <h2>Favorite BYU-I Devotionals</h2>
-        <p><strong>Assignment:</strong> Create a Form and a Table in HTML. Practice making forms and tables in html and CSS to display and prepare to collect data.</p>
-        <p><strong>What I learned:</strong></p>
-        <p><a href="https://yunadomon.github.io/wdd130/ice/favorite_devo/favdevo.html" target="_blank">View</a></p>
+        <p class="card-label"><strong>Assignment</strong></p>
+        <p>Create a Form and a Table in HTML. Practice making forms and tables in html and CSS to display and prepare to collect data.</p>
+        <p class="card-label"><strong>What I learned</strong></p>
+        <p>I learned to structure data using HTML tables and forms. I focused on styling these elements with CSS to create a clean, organized, and user-friendly interface for data collection.</p>
+        <a href="https://yunadomon.github.io/wdd130/ice/favorite_devo/favdevo.html" target="_blank" class="view-button">View &rarr;</a>
     </section>
 
     <section class="ice-card">
         <h2>Holiday Page</h2>
-        <p><strong>Assignment:</strong> Style the given html for the holiday. Practice designing css without changing the html.</p>
-        <p><strong>What I learned:</strong></p>
-        <p><a href="https://yunadomon.github.io/wdd130/ice/valentines/index.html" target="_blank">View</a></p>
+        <p class="card-label"><strong>Assignment</strong></p>
+        <p>Style the given html for the holiday. Practice designing css without changing the html.</p>
+        <p class="card-label"><strong>What I learned</strong></p>
+        <p>I practiced styling an existing HTML document using only CSS. I learned how to create a themed, visual experience by focusing on colors and layout without changing the underlying structure.</p>
+        <p><a href="https://yunadomon.github.io/wdd130/ice/valentines/index.html" target="_blank" class="view-button">View &rarr;</a>
     </section>
 
     <section class="ice-card">
         <h2>CSS Positioning Activity</h2>
-        <p><strong>Assignment:</strong> Complete grid practice activities. Practice using css grid alignment properities in different layouts.</p>
-        <p><strong>What I learned:</strong></p>
-        <p><a href="https://yunadomon.github.io/wdd130/ice/positioning/positioning.html" target="_blank">View</a></p>
+        <p class="card-label"><strong>Assignment</strong></p>
+        <p>Complete grid practice activities. Practice using css grid alignment properities in different layouts.</p>
+        <p class="card-label"><strong>What I learned</strong></p>
+        <p>I mastered CSS Grid properties like grid-template-columns and gap to create complex layouts. I learned to align and span elements accurately without modifying the HTML, improving my layout control and problem-solving skills.</p>
+        <p><a href="https://yunadomon.github.io/wdd130/ice/positioning/positioning.html" target="_blank" class="view-button">View &rarr;</a>
     </section>
 
     <section class="ice-card">
         <h2>Country Flags using CSS Grid</h2>
-        <p><strong>Assignment:</strong> Complete grid practice activities. Practice using css grid alignment properities in different layouts.</p>
-        <p><strong>What I learned:</strong></p>
-        <p><a href="https://yunadomon.github.io/wdd130/ice/grid_flags/flags.html" target="_blank">View</a></p>
+        <p class="card-label"><strong>Assignment</strong></p>
+        <p>Complete grid practice activities. Practice using css grid alignment properities in different layouts.</p>
+        <p class="card-label"><strong>What I learned</strong></p>
+        <p>I used CSS Grid to recreate various national flags, focusing on precise alignment and overlapping elements. I learned to apply grid lines and spanning techniques to build complex, geometric designs purely through styling.</p>
+        <p><a href="https://yunadomon.github.io/wdd130/ice/grid_flags/flags.html" target="_blank" class="view-button">View &rarr;</a>
     </section>
 
     <section class="ice-card">
         <h2>Big Image Gallery</h2>
-        <p><strong>Assignment:</strong> Create thumbnail images of an appropriate file size. Try using a photo editor to change image file size.</p>
-        <p><strong>What I learned:</strong></p>
-        <p><a href="https://yunadomon.github.io/wdd130/ice/gallery/gallery.html" target="_blank">View</a></p>
+        <p class="card-label"><strong>Assignment</strong></p>
+        <p>Create thumbnail images of an appropriate file size. Try using a photo editor to change image file size.</p>
+        <p class="card-label"><strong>What I learned</strong></p>
+        <p>I learned to optimize web performance by resizing images and creating thumbnails. I practiced using photo editors to reduce file sizes and change formats, ensuring faster page loading while maintaining visual quality.</p>
+        <p><a href="https://yunadomon.github.io/wdd130/ice/gallery/gallery.html" target="_blank" class="view-button">View &rarr;</a>
     </section>
 
     <section class="ice-card">
         <h2>Daily Feed Form</h2>
-        <p><strong>Assignment:</strong> Style a form used for collecting data. Practice CSS and look at javascript.</p>
-        <p><strong>What I learned:</strong></p>
-        <p><a href="https://yunadomon.github.io/wdd130/ice/gallery/gallery.html" target="_blank">View</a></p>
+        <p class="card-label"><strong>Assignment</strong></p>
+        <p>Style a form used for collecting data. Practice CSS and look at javascript.</p>
+        <p class="card-label"><strong>What I learned</strong></p>
+        <p>I learned to style complex forms using CSS Grid for better alignment and visual structure. I also explored basic JavaScript to understand how web forms process and submit user data.</p>
+        <p><a href="https://yunadomon.github.io/wdd130/ice/signup/signup.html" target="_blank" class="view-button">View &rarr;</a>
     </section>
-    
+
   </main>
 
   <footer>
