@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --color1: white; 
+  --color2: #262462;
+  --color3: #ADACFA;
+  --color4: #9AD025;
+}
+
+/*Typography 
+Heading Font: Bungee
+Paragraph Font: Atma*/
+
+body {
+    cursor: url('images/cherry.png') 32 32, auto;
+}
