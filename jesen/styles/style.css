@@ -6,25 +6,32 @@
   --color2: #262462;
   --color3: #ADACFA;
   --color4: #9AD025;
+  --color5: #707058; /*font color*/
+  --color6: #e4ffb9; /*body background color*/
+
 }
 
 /*Typography 
 Heading Font: Bungee
 Paragraph Font: Atma*/
 
+
 body {
-    cursor: url('images/cherry.png') 32 32, auto;
     font-family: 'Atma', sans-serif;
-    background-color: white;
-    color: #262462;
+    background-color: #e4ffb9;
+    color: #707058;
     line-height: 1.6;
     font-size: 1rem;
+    margin: 0;
 }
 header {
   display: grid;
   grid-template-columns: 1fr 3fr;
   align-items: center;
-  border-bottom: 2px solid #262462;
+  border-bottom: 2px solid #707058;
+  background-color: white;
+  height: 400px;
+  width: 100%;
 }
 .logo {
   width: 360px;
@@ -51,7 +58,7 @@ header {
   transform: translate(-50%, -50%);
   font-size: 18px;
   font-family: 'Bungee';
-  color: #262462; 
+  color: black; 
   font-weight:100;    
   text-shadow: 1px 1px 3px rgba(160, 154, 154, 0.7); 
   pointer-events: none; 
@@ -93,7 +100,7 @@ h2 {
     width: 400px; 
     height: auto;
     border-radius: 10px;
-    border: 2px solid #262462;
+    border: 2px solid #707058;
 }
 .pickle-ice-cream-text {
     flex: 1;
@@ -110,7 +117,7 @@ h2 {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border: 2px solid #262462;
+    border: 2px solid #707058;
     border-radius: 5px;
 }
 .img-large {
@@ -128,15 +135,18 @@ h2 {
 hr {
     margin: 50px 0;
     border: 0;
-    border-top: 2px solid #262462; 
+    border-top: 2px solid #707058; 
 }
 footer {
     display: grid;
     grid-template-columns: 1fr 3fr; 
     align-items: center;  
-    padding: 60px 50px; 
+    padding: 0 50px; 
     margin-top: 50px;
-    border-top: 2px solid #262462;
+    border-top: 2px solid #707058;
+    background-color: white;
+    width: 100%;
+    height: 400px;
 }
 footer .logo {
     width: 360px;
@@ -164,5 +174,4 @@ footer .logo {
     margin: 0;
     font-size: 1.2rem;
 }
-
 
