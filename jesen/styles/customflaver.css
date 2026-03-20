@@ -1,0 +1,98 @@
+h1 {
+    font-size: 3rem;
+}
+.bungee-font {
+    font-family: 'Bungee', cursive;
+}
+.atma-font {
+    font-family: 'Atma', cursive;
+}
+.form-group, label {
+    font-size: 1.7rem;
+}
+.intro-text {
+    font-size: 1.7rem;
+    min-height: auto;
+}
+.custom-page {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+}
+.form-container {
+            text-align: left;
+}
+.form-group {
+            margin-bottom: 20px;
+}
+.radio-options {
+            display: flex;
+            gap: 60px; 
+            margin-top: 10px;
+            padding-left: 10px; 
+}
+.radio-options label {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            cursor: pointer;
+}
+.time-frame-box {
+            border: 2px solid #707058;
+            padding: 15px;
+            border-radius: 10px;
+            position: relative;
+            background-color: #fff;
+}
+.describe-section {
+            display: flex;
+            gap: 20px;
+            align-items: stretch; 
+            margin-top: 30px;
+}
+.describe-input {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+}
+.describe-input textarea {
+            width: 100%;
+            height: 130px;
+            padding: 10px;
+            border: 2px solid #333;
+            border-radius: 5px;
+            resize: none;
+            box-sizing: border-box;
+}
+.note-text {
+            flex: 1;
+            font-size: 1.2rem;
+            line-height: 1.5;
+            margin-top: 1.4rem; 
+            display: flex;
+            align-items: flex-end; 
+            padding-bottom: 0; 
+}
+.note-text p {
+            margin-bottom: 0;
+}
+.submit-area {
+            margin-top: 10px;
+            text-align: left;
+}
+.submit-button {
+            background-color:#707058;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.2s;
+            font-size: 1.2rem;
+            padding: 15px 50px;
+}
+.submit-button:hover {
+            transform: scale(1.05);
+            background-color: #9AD025;
+            color: #707058;
+}
