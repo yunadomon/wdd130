@@ -92,7 +92,7 @@ h2 {
 #hero p {
     max-width: 800px;
     margin: 0 auto 15px;
-    font-size: 1.1rem;
+    font-size: 1.15rem;
 }
 #pickle {
     display: flex;
@@ -108,7 +108,7 @@ h2 {
 }
 .pickle-ice-cream-text {
     flex: 1;
-    font-size: 1.1rem;
+    font-size: 1.15rem;
 }
 .gallery-grid-system {
     display: grid;
